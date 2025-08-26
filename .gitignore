@@ -1,0 +1,57 @@
+# --- Ambientes Virtuais do Python ---
+# Nunca adicione seu ambiente virtual ao Git. Ele é específico da sua máquina.
+# Outras pessoas criarão o seu próprio ambiente a partir de um arquivo requirements.txt.
+venv/
+env/
+.venv/
+.env/
+*/venv/
+*/env/
+*/.venv/
+*/.env/
+
+# --- Arquivos Compilados e Cache do Python ---
+# Gerados automaticamente pelo interpretador para otimização.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Arquivos de Distribuição / Pacotes ---
+# Gerados quando você cria um pacote instalável do seu projeto.
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Arquivos de Configuração de IDEs e Editores Populares ---
+# Cada desenvolvedor tem sua própria configuração.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Arquivos de Sistema Operacional ---
+# Arquivos de metadados gerados pelo seu SO.
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+._*
+
+# --- Arquivos de Log ---
+# Arquivos de log podem ficar grandes e conter informações sensíveis.
+*.log
+logs/
+
+# --- Arquivos de Segredos (MUITO IMPORTANTE) ---
+# Arquivos que guardam senhas, tokens, chaves de API.
+# NUNCA adicione segredos ao Git. Em vez disso, crie um arquivo de exemplo.
+.env
+.env.*
+!.env.example
+
+# --- Testes e Cobertura ---
+# Relatórios e caches gerados por ferramentas de teste.
+.pytest_cache/
+.coverage
+htmlcov/
