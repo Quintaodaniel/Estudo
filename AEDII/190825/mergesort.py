@@ -36,14 +36,14 @@ def mergesort(arr: list) -> list:
 
 # Fazendo o MergeSort com os Vetores salvos e depois salvando
 # em um outro arquivo .txt
-vetor1 = arquivo.ler_txt('./AEDII/190825/vetor1.txt')
+vetor1 = arquivo.ler_txt('./AEDII/190825/data/vetor1.txt')
 mergesort(vetor1)
-arquivo.salvar_txt(vetor1, './AEDII/190825/vetor1-ordenado.txt')
+arquivo.salvar_txt(vetor1, './AEDII/190825/data/vetor1-ordenado.txt')
 
-vetor2 = arquivo.ler_txt('./AEDII/190825/vetor2.txt')
+vetor2 = arquivo.ler_txt('./AEDII/190825/data/vetor2.txt')
 mergesort(vetor2)
-arquivo.salvar_txt(vetor2, './AEDII/190825/vetor2-ordenado.txt')
+arquivo.salvar_txt(vetor2, './AEDII/190825/data/vetor2-ordenado.txt')
 
-vetor3 = arquivo.ler_txt('./AEDII/190825/vetor3.txt')
+vetor3 = arquivo.ler_txt('./AEDII/190825/data/vetor3.txt')
 mergesort(vetor3)
-arquivo.salvar_txt(vetor3, './AEDII/190825/vetor3-ordenado.txt')
+arquivo.salvar_txt(vetor3, './AEDII/190825/data/vetor3-ordenado.txt')
