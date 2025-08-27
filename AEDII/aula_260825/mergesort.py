@@ -1,7 +1,4 @@
 def mergesort(arr: list) -> list:
-    """
-    Ordena um array usando o algoritmo Mergesort.
-    """
     if len(arr) > 1:
         meio = len(arr) // 2
 
