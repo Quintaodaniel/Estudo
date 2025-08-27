@@ -23,7 +23,7 @@ def gerar_proximo_numero_base():
 def sortear_um_numero():
     """Sorteia um número FIXO no intervalo de 1 a 100."""
     numero_base = gerar_proximo_numero_base()
-    return 1 + (numero_base % 100)
+    return 1 + (numero_base % 1000000000000000)
 
 def gerar_varios_numeros(quantidade):
     """Gera uma quantidade específica de números e retorna uma lista com eles."""
