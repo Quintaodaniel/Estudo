@@ -1,5 +1,11 @@
 # Termo majoritário é aquele que aparece mais da metade do tamanho que o vetor tem
 # Exemplo: [1, 0, 1, 2, 1, 1, 0, 1, 1] ----> termo majoritario = 1
+#
+# Complexidade:
+#  
+# caso base: θ(1)
+# caso médio: θ(n)
+# chamada recursiva: T(n-p), onde p é o tamanho da lista 'iguais'
 
 def termo_majoritario(arr: list, size: int):
     if len(arr) == 0:
